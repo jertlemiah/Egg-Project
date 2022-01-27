@@ -50,6 +50,18 @@ public class Singleton<T> : MonoBehaviour where T : MonoBehaviour
         }
     }
 
+    void Awake()
+    {
+        // if (_instance == null)
+        // {
+        //     m_Instance = this;
+        // }
+        // else
+        // {
+        //     Destroy(this);
+        // }
+    }
+
 
     private void OnApplicationQuit()
     {
