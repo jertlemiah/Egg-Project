@@ -1,0 +1,991 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'en' Physical Memory: 16332 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Jeremiah/Documents/GitHub/CS-6457-Milestone-0
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57343
+Successfully changed project path to: C:/Users/Jeremiah/Documents/GitHub/CS-6457-Milestone-0
+C:/Users/Jeremiah/Documents/GitHub/CS-6457-Milestone-0
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 57.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.25f1 (9b9180224418)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Jeremiah/Documents/GitHub/CS-6457-Milestone-0/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 SUPER (ID=0x1e84)
+    Vendor:   
+    VRAM:     8011 MB
+    Driver:   30.0.14.7212
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56912
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002230 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 56.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.491 seconds
+Domain Reload Profiling:
+	ReloadAssembly (491ms)
+		BeginReloadAssembly (42ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (387ms)
+			LoadAssemblies (40ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (118ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (156ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (56ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (63ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006324 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 59.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.010 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1011ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (841ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (272ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (351ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (59ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (197ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3542 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.2 MB.
+System memory in use after: 158.4 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3988.
+Total: 3.708000 ms (FindLiveObjects: 0.321900 ms CreateObjectMapping: 0.103300 ms MarkObjects: 3.197100 ms  DeleteObjects: 0.084900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Models/watermelone
+  artifactKey: Guid(29f8e06bc6f87dc4cafc92a89125559c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/watermelone using Guid(29f8e06bc6f87dc4cafc92a89125559c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ce26c018ca8f87666cfac2e3a38f24') in 0.006128 seconds 
+  Import took 0.010533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.190123 seconds.
+  path: Assets/Models/watermelone/source/watermelon/watermelon.obj
+  artifactKey: Guid(67caac965bdebe84d874b76100528b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/watermelone/source/watermelon/watermelon.obj using Guid(67caac965bdebe84d874b76100528b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1dd66a0dcbf70be286681ffaeb93b32') in 0.254476 seconds 
+  Import took 0.259821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 341.967298 seconds.
+  path: Assets/Models/watermelone/textures/bottom_inside.png
+  artifactKey: Guid(a5e1322f1d4dad34ebff1ac44778ec45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/watermelone/textures/bottom_inside.png using Guid(a5e1322f1d4dad34ebff1ac44778ec45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '683db977370e8e36497d19d14346932c') in 0.047334 seconds 
+  Import took 0.052984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.433528 seconds.
+  path: Assets/Models/watermelone/textures/bottom_inside_2.png
+  artifactKey: Guid(0f060ff5cb438b94386be39e240ce3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/watermelone/textures/bottom_inside_2.png using Guid(0f060ff5cb438b94386be39e240ce3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b49cbcb6ab06bfe8105d707217fb2e55') in 0.021153 seconds 
+  Import took 0.026221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.128183 seconds.
+  path: Assets/Models/watermelone/textures/bottom_inside_3.png
+  artifactKey: Guid(5805ff0b57933ce4ca3601c719dd4fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/watermelone/textures/bottom_inside_3.png using Guid(5805ff0b57933ce4ca3601c719dd4fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b73c5257ae2bf2fc94c6f3bf32236a5') in 0.007914 seconds 
+  Import took 0.013024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.055934 seconds.
+  path: Assets/Models/watermelone/textures/watermelon_inside.png
+  artifactKey: Guid(b46319a33b8fb7b46ac8386e8e2ae192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/watermelone/textures/watermelon_inside.png using Guid(b46319a33b8fb7b46ac8386e8e2ae192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6511da7b6eff8fe63880f8213bff411d') in 0.008274 seconds 
+  Import took 0.013495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.550647 seconds.
+  path: Assets/Models/watermelone/textures/watermelon_inside_2.png
+  artifactKey: Guid(d815deb6eaee3964f995147b096e1ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/watermelone/textures/watermelon_inside_2.png using Guid(d815deb6eaee3964f995147b096e1ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f21ae0ddd3afe8d14a7a65597f704233') in 0.007937 seconds 
+  Import took 0.013284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.488630 seconds.
+  path: Assets/Models/watermelone/textures/watermelon_inside_3.png
+  artifactKey: Guid(9d2a54d68f1978d43a63051958e9fb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/watermelone/textures/watermelon_inside_3.png using Guid(9d2a54d68f1978d43a63051958e9fb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5500f5c2985f6434e036717a540b3bec') in 0.007810 seconds 
+  Import took 0.013077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 82.194993 seconds.
+  path: Assets/Models/watermelone (1)/scene.gltf
+  artifactKey: Guid(78eec4dd993bbb84fbd3f53ac25abed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/watermelone (1)/scene.gltf using Guid(78eec4dd993bbb84fbd3f53ac25abed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027f78db7680cdd931969d548870df61') in 0.006389 seconds 
+  Import took 0.012227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.375565 seconds.
+  path: Assets/Models/watermelone (1)/textures/bottom_textuder_3_baseColor.png
+  artifactKey: Guid(252c4d5975d587b4894f8b90e5c6b5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/watermelone (1)/textures/bottom_textuder_3_baseColor.png using Guid(252c4d5975d587b4894f8b90e5c6b5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1beb14c335bf5df6c1d7322ba6a7b7f9') in 0.008156 seconds 
+  Import took 0.013478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.724056 seconds.
+  path: Assets/Models/watermelone (1)/scene.bin
+  artifactKey: Guid(5e5874514c132f24987d88127db3b690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/watermelone (1)/scene.bin using Guid(5e5874514c132f24987d88127db3b690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c4443308ff7ba7a0d3d459c5c024a6') in 0.004112 seconds 
+  Import took 0.009589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.052581 seconds.
+  path: Assets/Models/egg.obj
+  artifactKey: Guid(f24aa999f088ebb4183699e7b9b52b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/egg.obj using Guid(f24aa999f088ebb4183699e7b9b52b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675272650cbbcd3f5adaadf7bf3a5d52') in 0.053898 seconds 
+  Import took 0.059225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 144.449191 seconds.
+  path: Assets/Models/watermelone/source/watermelon/watermelon.obj
+  artifactKey: Guid(67caac965bdebe84d874b76100528b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/watermelone/source/watermelon/watermelon.obj using Guid(67caac965bdebe84d874b76100528b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5521a2678158244ab588d5ddf33d22d2') in 0.037028 seconds 
+  Import took 0.042957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.843928 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(d0234ba368eeec9418390da711bfdad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(d0234ba368eeec9418390da711bfdad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa67f7aafba014bdcc74449d8eba51d0') in 0.001771 seconds 
+  Import took 0.007270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.572568 seconds.
+  path: Assets/Models/watermelone/source/watermelon/watermelon.obj
+  artifactKey: Guid(67caac965bdebe84d874b76100528b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/watermelone/source/watermelon/watermelon.obj using Guid(67caac965bdebe84d874b76100528b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7022397b052d4b5abf4b17bf5c98b6a') in 0.057243 seconds 
+  Import took 0.063230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 151.994304 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.002071 seconds 
+  Import took 0.008036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.475646 seconds.
+  path: Assets/Models
+  artifactKey: Guid(a8451b8458b448e4cbc1f1f788ed7a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(a8451b8458b448e4cbc1f1f788ed7a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a63bef278b660c6e65274c5052f69f85') in 0.001992 seconds 
+  Import took 0.006852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.146699 seconds.
+  path: Assets/Models/watermelone/source
+  artifactKey: Guid(3ff684a35e83619488dbf3cfc8dc7998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/watermelone/source using Guid(3ff684a35e83619488dbf3cfc8dc7998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3172a8a6a3847d6d4dfa39c0243a8e0') in 0.001754 seconds 
+  Import took 0.006838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.987492 seconds.
+  path: Assets/Models/watermelone/source/watermelon
+  artifactKey: Guid(93d0b6951cd4275418d8a88afb16f643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/watermelone/source/watermelon using Guid(93d0b6951cd4275418d8a88afb16f643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd382a68fe5c8e0b3ec6ffff2a985a3b') in 0.002192 seconds 
+  Import took 0.008232 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008078 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 55.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.040 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1041ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (853ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (269ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (335ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (56ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (183ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3453 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.9 MB.
+System memory in use after: 155.8 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 4112.
+Total: 4.450100 ms (FindLiveObjects: 0.334700 ms CreateObjectMapping: 0.089200 ms MarkObjects: 3.290600 ms  DeleteObjects: 0.734400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 494.453404 seconds.
+  path: Assets/Models/watermelone (1)/scene.gltf
+  artifactKey: Guid(78eec4dd993bbb84fbd3f53ac25abed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/watermelone (1)/scene.gltf using Guid(78eec4dd993bbb84fbd3f53ac25abed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd66040aa1c04447f739ab0a6fd14e53a') in 0.020443 seconds 
+  Import took 0.025952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.198569 seconds.
+  path: Assets/Models/watermelone (1)/scene.gltf
+  artifactKey: Guid(78eec4dd993bbb84fbd3f53ac25abed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/watermelone (1)/scene.gltf using Guid(78eec4dd993bbb84fbd3f53ac25abed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80f2bbd8735a5a290aed360b0298965a') in 0.550423 seconds 
+  Import took 0.558310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1930.780539 seconds.
+  path: Assets/Models/Single watermelon slice/watermelon model.blend
+  artifactKey: Guid(1ea5d3da8f335ef4eb75680b18743939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Single watermelon slice/watermelon model.blend using Guid(1ea5d3da8f335ef4eb75680b18743939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc12178a2e588809c6332278b486379c') in 0.243599 seconds 
+  Import took 0.250295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.776880 seconds.
+  path: Assets/Models/Single watermelon slice/watermelon model.blend
+  artifactKey: Guid(1ea5d3da8f335ef4eb75680b18743939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Single watermelon slice/watermelon model.blend using Guid(1ea5d3da8f335ef4eb75680b18743939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242982c88cdc2b0511f64efc90b08818') in 0.109015 seconds 
+  Import took 0.114553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.710218 seconds.
+  path: Assets/Models/Single watermelon slice/watermelon model.blend1
+  artifactKey: Guid(cf583fd49f44e8e4db35db47cd9392d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Single watermelon slice/watermelon model.blend1 using Guid(cf583fd49f44e8e4db35db47cd9392d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df01d81e17437050cc596b9c817d876f') in 0.004808 seconds 
+  Import took 0.011232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.573657 seconds.
+  path: Assets/Models/Single watermelon slice/watermelon model.blend
+  artifactKey: Guid(1ea5d3da8f335ef4eb75680b18743939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Single watermelon slice/watermelon model.blend using Guid(1ea5d3da8f335ef4eb75680b18743939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f59d4d24af83c8f97a7bed4ba515ea16') in 0.091538 seconds 
+  Import took 0.098051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.170916 seconds.
+  path: Assets/Models/Single watermelon slice/Materials
+  artifactKey: Guid(6c70f47eea8012240b1ac6f9ad208bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Single watermelon slice/Materials using Guid(6c70f47eea8012240b1ac6f9ad208bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff9caac2bfb80cabcce5caf42497ef6') in 0.001774 seconds 
+  Import took 0.006957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.210626 seconds.
+  path: Assets/Models/Single watermelon slice/watermelon model.blend
+  artifactKey: Guid(1ea5d3da8f335ef4eb75680b18743939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Single watermelon slice/watermelon model.blend using Guid(1ea5d3da8f335ef4eb75680b18743939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17202da696374925f47aaf776299245d') in 0.121968 seconds 
+  Import took 0.128018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.595357 seconds.
+  path: Assets/Models/Single watermelon slice/watermelon model.blend
+  artifactKey: Guid(1ea5d3da8f335ef4eb75680b18743939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Single watermelon slice/watermelon model.blend using Guid(1ea5d3da8f335ef4eb75680b18743939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b151f0127d080a1f0d7de5b21b79095f') in 0.113125 seconds 
+  Import took 0.119537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.487823 seconds.
+  path: Assets/Models/Single watermelon slice/watermelon model.blend
+  artifactKey: Guid(1ea5d3da8f335ef4eb75680b18743939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Single watermelon slice/watermelon model.blend using Guid(1ea5d3da8f335ef4eb75680b18743939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db1ddee58c5c910b36d4712a0fd26cb4') in 0.121551 seconds 
+  Import took 0.127721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.006363 seconds.
+  path: Assets/Models/watermelone (1)
+  artifactKey: Guid(7a2c1bc1771a8db4b9f9e6c09414b2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/watermelone (1) using Guid(7a2c1bc1771a8db4b9f9e6c09414b2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3950a18ab3a57a1a6d8b7552fef2cd9') in 0.002149 seconds 
+  Import took 0.007626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.464849 seconds.
+  path: Assets/Models/Single watermelon slice/watermelon model.blend
+  artifactKey: Guid(1ea5d3da8f335ef4eb75680b18743939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Single watermelon slice/watermelon model.blend using Guid(1ea5d3da8f335ef4eb75680b18743939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '093de9b8711f48b8451474dfec88dc37') in 0.078106 seconds 
+  Import took 0.083586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 687.246996 seconds.
+  path: Assets/Models/Single watermelon slice
+  artifactKey: Guid(17525a1fe8d6ec546a5a53721ccc801c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Single watermelon slice using Guid(17525a1fe8d6ec546a5a53721ccc801c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68df29439e6d1b4e008981f503a00604') in 0.003122 seconds 
+  Import took 0.009429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.498548 seconds.
+  path: Assets/Models/Single watermelon slice/watermelon model.blend
+  artifactKey: Guid(1ea5d3da8f335ef4eb75680b18743939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Single watermelon slice/watermelon model.blend using Guid(1ea5d3da8f335ef4eb75680b18743939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8199580fce02a1c2bfb97190c424418f') in 0.315059 seconds 
+  Import took 0.328587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 368.471740 seconds.
+  path: Assets/Models/Single watermelon slice/watermelon model.blend
+  artifactKey: Guid(1ea5d3da8f335ef4eb75680b18743939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Single watermelon slice/watermelon model.blend using Guid(1ea5d3da8f335ef4eb75680b18743939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0e4afdb3586c3af8f9a123bb5266ef7') in 0.184060 seconds 
+  Import took 0.190115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.011317 seconds.
+  path: Assets/Models/Single watermelon slice/watermelon model.blend
+  artifactKey: Guid(1ea5d3da8f335ef4eb75680b18743939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Single watermelon slice/watermelon model.blend using Guid(1ea5d3da8f335ef4eb75680b18743939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3ed75db21d14e715849a6440f8ebdb0') in 0.070449 seconds 
+  Import took 0.077118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2710.342734 seconds.
+  path: Assets/Models/watermelone (1)/scene.gltf
+  artifactKey: Guid(290d3b78db4b51748b0a0d4bc8c5bcec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/watermelone (1)/scene.gltf using Guid(290d3b78db4b51748b0a0d4bc8c5bcec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9097e4988586f61c52a9f4b9a66928fb') in 0.384969 seconds 
+  Import took 0.431345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.947979 seconds.
+  path: Assets/Models/watermelone (1)/textures/Bottom_textured_2_baseColor.png
+  artifactKey: Guid(82a4aae55c0950846bb20e8b08e79f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/watermelone (1)/textures/Bottom_textured_2_baseColor.png using Guid(82a4aae55c0950846bb20e8b08e79f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42c71823a91fe338864ac7154d431b3d') in 0.162433 seconds 
+  Import took 0.168811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 342.851332 seconds.
+  path: Assets/Models/watermelone (1)/textures/Bottom_textured_1_baseColor.png
+  artifactKey: Guid(43c5e97b57fa9204a9123d6c4c6978f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/watermelone (1)/textures/Bottom_textured_1_baseColor.png using Guid(43c5e97b57fa9204a9123d6c4c6978f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef8304fc63876f410e634e07ee8bdac') in 0.026290 seconds 
+  Import took 0.032706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 181.922379 seconds.
+  path: Assets/Models/Single watermelon slice/watermelon model.blend
+  artifactKey: Guid(1ea5d3da8f335ef4eb75680b18743939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Single watermelon slice/watermelon model.blend using Guid(1ea5d3da8f335ef4eb75680b18743939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d9cecf212c6b97e0df8aabff9221bcc') in 0.091570 seconds 
+  Import took 0.098752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.975242 seconds.
+  path: Assets/Models/watermelone (1)/textures/watermelon_inside_textured_1_baseColor.png
+  artifactKey: Guid(9a7a4bfdf0901df49a406564e8f742d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/watermelone (1)/textures/watermelon_inside_textured_1_baseColor.png using Guid(9a7a4bfdf0901df49a406564e8f742d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0328bf4361b24c39ecde3ec9060aa7c') in 0.012753 seconds 
+  Import took 0.019774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.656070 seconds.
+  path: Assets/Models/watermelone (1)/textures/Watermelone_inside_textured_2_baseColor.png
+  artifactKey: Guid(aeebcef4b8bc9d5489cbc45849704b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/watermelone (1)/textures/Watermelone_inside_textured_2_baseColor.png using Guid(aeebcef4b8bc9d5489cbc45849704b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed87960b3797d028ab78e214a340c29b') in 0.014542 seconds 
+  Import took 0.021483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.438303 seconds.
+  path: Assets/Models/watermelone (1)/textures/watermelone_inside_textured_3_baseColor.png
+  artifactKey: Guid(d50fb71beacd0574db745d53c170ddd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/watermelone (1)/textures/watermelone_inside_textured_3_baseColor.png using Guid(d50fb71beacd0574db745d53c170ddd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c7d2a195ee1b7183d8be590d9da3246') in 0.011281 seconds 
+  Import took 0.018071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.467737 seconds.
+  path: Assets/Models/Single watermelon slice/watermelon model.blend
+  artifactKey: Guid(1ea5d3da8f335ef4eb75680b18743939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Single watermelon slice/watermelon model.blend using Guid(1ea5d3da8f335ef4eb75680b18743939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590c6c4faf739844d0ec2825c58a46f5') in 0.126660 seconds 
+  Import took 0.133007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.181828 seconds.
+  path: Assets/Models/Single watermelon slice/watermelon model.blend
+  artifactKey: Guid(1ea5d3da8f335ef4eb75680b18743939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Single watermelon slice/watermelon model.blend using Guid(1ea5d3da8f335ef4eb75680b18743939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2be7d9bd32d9175bf7d6a5bd2228e25b') in 0.138859 seconds 
+  Import took 0.146056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 102.588990 seconds.
+  path: Assets/Models/watermelone (1)/textures
+  artifactKey: Guid(c5f943426b764ba4a8b52b6da611d452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/watermelone (1)/textures using Guid(c5f943426b764ba4a8b52b6da611d452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b439175238fab1d706effdb79545cd4e') in 0.002797 seconds 
+  Import took 0.009070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.206361 seconds.
+  path: Assets/Models/Single watermelon slice/watermelon model.blend
+  artifactKey: Guid(1ea5d3da8f335ef4eb75680b18743939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Single watermelon slice/watermelon model.blend using Guid(1ea5d3da8f335ef4eb75680b18743939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a13e3077ee42f114de264fc4cc5dfd') in 0.140208 seconds 
+  Import took 0.146731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.721959 seconds.
+  path: Assets/Models/Single watermelon slice/watermelon model.blend
+  artifactKey: Guid(1ea5d3da8f335ef4eb75680b18743939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Single watermelon slice/watermelon model.blend using Guid(1ea5d3da8f335ef4eb75680b18743939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd5b6cab70d94866f8fde32e13b3f268') in 0.128973 seconds 
+  Import took 0.135325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 272.592638 seconds.
+  path: Assets/Models/Single watermelon slice/Materials/Fruit Shader.shader
+  artifactKey: Guid(1a3e7c4551f3cc443beae3d571a18f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Single watermelon slice/Materials/Fruit Shader.shader using Guid(1a3e7c4551f3cc443beae3d571a18f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5490d9c10f6f64cd55e677974e4184d0') in 0.006490 seconds 
+  Import took 0.012318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.119228 seconds.
+  path: Assets/Models/Single watermelon slice/Materials/Fruit Shader.shadergraph
+  artifactKey: Guid(6dba84872763fda44b64a775678232d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Single watermelon slice/Materials/Fruit Shader.shadergraph using Guid(6dba84872763fda44b64a775678232d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e28a466e02eee6df97bec49eb8b141d') in 0.005207 seconds 
+  Import took 0.010821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 172.411778 seconds.
+  path: Assets/Models/Single watermelon slice/Materials/New Shader Graph.shadergraph
+  artifactKey: Guid(3ea1c4d0e9e97024cbfcd09a7ecf71ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Single watermelon slice/Materials/New Shader Graph.shadergraph using Guid(3ea1c4d0e9e97024cbfcd09a7ecf71ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d21839a0acf8f4d8becc15da36aad2a') in 0.003881 seconds 
+  Import took 0.009527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.082332 seconds.
+  path: Assets/Models/Single watermelon slice/Materials/New Shader Graph 1.shadergraph
+  artifactKey: Guid(0c83a525d6efc3b4fbd89570a0710e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Single watermelon slice/Materials/New Shader Graph 1.shadergraph using Guid(0c83a525d6efc3b4fbd89570a0710e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9def35d1b96d2cdb9ab5ca8c8016040f') in 0.003170 seconds 
+  Import took 0.009388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6972.933464 seconds.
+  path: Assets/Models/Orange Slice
+  artifactKey: Guid(a114e4a2d423c4440b32ec0442bc6f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Orange Slice using Guid(a114e4a2d423c4440b32ec0442bc6f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '977ff702a3bea8caca7f4a0897a3dbe7') in 0.002565 seconds 
+  Import took 0.008784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.338829 seconds.
+  path: Assets/Models/Single watermelon slice/watermelon model.blend
+  artifactKey: Guid(1ea5d3da8f335ef4eb75680b18743939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Single watermelon slice/watermelon model.blend using Guid(1ea5d3da8f335ef4eb75680b18743939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e19029dfe5ddb2bac453bacd83d59087') in 0.180749 seconds 
+  Import took 0.186791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.497052 seconds.
+  path: Assets/Models/Single watermelon slice/watermelon model.blend1
+  artifactKey: Guid(cf583fd49f44e8e4db35db47cd9392d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Single watermelon slice/watermelon model.blend1 using Guid(cf583fd49f44e8e4db35db47cd9392d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf5135e4f000590331beb0953f6a724d') in 0.002563 seconds 
+  Import took 0.008263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.296290 seconds.
+  path: Assets/Models/Single watermelon slice/watermelon model.blend
+  artifactKey: Guid(1ea5d3da8f335ef4eb75680b18743939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Single watermelon slice/watermelon model.blend using Guid(1ea5d3da8f335ef4eb75680b18743939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c91e23c19f4820173f8b73bdff4a4ed7') in 0.123882 seconds 
+  Import took 0.130038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 349.651793 seconds.
+  path: Assets/Models/Lime Slice
+  artifactKey: Guid(0de19814355ac60438347cb05828a0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Lime Slice using Guid(0de19814355ac60438347cb05828a0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adfe6cba531919bfa50c9a455072de69') in 0.004105 seconds 
+  Import took 0.011451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.233462 seconds.
+  path: Assets/Models/Lime Slice/Lime Slice.blend
+  artifactKey: Guid(1b91899bd6e906d4a8491b75f3fca52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Lime Slice/Lime Slice.blend using Guid(1b91899bd6e906d4a8491b75f3fca52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '642af52bea00a6ccc71123528e09df68') in 0.095323 seconds 
+  Import took 0.101303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.071377 seconds.
+  path: Assets/Models/Lemon Slice/Lemon Slice.blend
+  artifactKey: Guid(90be7365d1d0d0443a0a5e15175fedf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Lemon Slice/Lemon Slice.blend using Guid(90be7365d1d0d0443a0a5e15175fedf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74cd7eb0e6fafa99139101c641a4df6') in 0.088175 seconds 
+  Import took 0.094360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.505021 seconds.
+  path: Assets/Models/Orange Slice/orange slice.blend
+  artifactKey: Guid(5f3a481d3df821c498c9a0e3a8238fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Orange Slice/orange slice.blend using Guid(5f3a481d3df821c498c9a0e3a8238fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0751b338fb0d1e805bcdae559d8ced0b') in 0.122472 seconds 
+  Import took 0.128402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64268.229900 seconds.
+  path: Assets/Materials/Bubble.shadergraph
+  artifactKey: Guid(21916a17a2ed6654bb7cdbce10d7b185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Bubble.shadergraph using Guid(21916a17a2ed6654bb7cdbce10d7b185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72678fb1603b99d7ff76b92125a78580') in 0.056062 seconds 
+  Import took 0.182704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 620.273654 seconds.
+  path: Assets/Materials/Bubble.shadergraph
+  artifactKey: Guid(21916a17a2ed6654bb7cdbce10d7b185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Bubble.shadergraph using Guid(21916a17a2ed6654bb7cdbce10d7b185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c03b96e216afa86df759427af60a5ed') in 0.005507 seconds 
+  Import took 0.012775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1732.893678 seconds.
+  path: Assets/Models/Single watermelon slice/watermelon model.blend
+  artifactKey: Guid(1ea5d3da8f335ef4eb75680b18743939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Single watermelon slice/watermelon model.blend using Guid(1ea5d3da8f335ef4eb75680b18743939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9192c0eabd13554cd6b7c3ca01140e6d') in 0.245203 seconds 
+  Import took 0.252382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.735467 seconds.
+  path: Assets/Models/Single watermelon slice/watermelon model.blend
+  artifactKey: Guid(1ea5d3da8f335ef4eb75680b18743939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Single watermelon slice/watermelon model.blend using Guid(1ea5d3da8f335ef4eb75680b18743939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242d3f1a488740f7c396985003d3ce80') in 0.106183 seconds 
+  Import took 0.112589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.130664 seconds.
+  path: Assets/Models/watermelone (1)/scene.gltf
+  artifactKey: Guid(290d3b78db4b51748b0a0d4bc8c5bcec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/watermelone (1)/scene.gltf using Guid(290d3b78db4b51748b0a0d4bc8c5bcec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee9fec62118be0ad2b76dd902a2c2df8') in 0.418175 seconds 
+  Import took 0.426503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Materials/PickUp 1.mat
+  artifactKey: Guid(c3d51e169a565974f8151dfb51774a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PickUp 1.mat using Guid(c3d51e169a565974f8151dfb51774a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '301d1e24390c68ee05a73988780aba45') in 0.020943 seconds 
+  Import took 0.026985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Models/Single watermelon slice/Materials/Bottom_textured_1.mat
+  artifactKey: Guid(28afd2de45cf19043a92db2f9e81199e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Single watermelon slice/Materials/Bottom_textured_1.mat using Guid(28afd2de45cf19043a92db2f9e81199e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b22b174e9bd163c0c586318d20b348f9') in 0.024238 seconds 
+  Import took 0.030422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Models/Single watermelon slice/Materials/bliks_outline.mat
+  artifactKey: Guid(b57ab69b78291dc4aabbc90008db407d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Single watermelon slice/Materials/bliks_outline.mat using Guid(b57ab69b78291dc4aabbc90008db407d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6779b7e82d731181e266568eb59501a0') in 0.021667 seconds 
+  Import took 0.026992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Models/Single watermelon slice/Materials/red_outline.mat
+  artifactKey: Guid(d15e9516bd3a66048a9223f329aae8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Single watermelon slice/Materials/red_outline.mat using Guid(d15e9516bd3a66048a9223f329aae8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad65c595a56e8703afa2c2101ee2876f') in 0.009542 seconds 
+  Import took 0.014647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Materials/Pickup Clear red.mat
+  artifactKey: Guid(69b5254d87da8984dae6418303c5754a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pickup Clear red.mat using Guid(69b5254d87da8984dae6418303c5754a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9acddcbb912b3ee61bfd7cc524e3b0f6') in 0.013505 seconds 
+  Import took 0.018801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '055c42c88dae315977b2074047060a5e') in 0.098432 seconds 
+  Import took 0.103396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Standard Assets/Fonts/OpenSans/OpenSansRegular.ttf
+  artifactKey: Guid(b51a3e520f9164da198dc59c8acfccd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Fonts/OpenSans/OpenSansRegular.ttf using Guid(b51a3e520f9164da198dc59c8acfccd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fc89d2db7501c438ebd1cbe4402cd46') in 0.041847 seconds 
+  Import took 0.047447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Models/Single watermelon slice/Materials/seeds.mat
+  artifactKey: Guid(962105a0573da664d950ce6a135f33d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Single watermelon slice/Materials/seeds.mat using Guid(962105a0573da664d950ce6a135f33d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c58886fb0bfa1b6a3330ff74a22f36ef') in 0.008967 seconds 
+  Import took 0.014237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Materials/Walls.mat
+  artifactKey: Guid(7592afc10fd2353429672a991222d06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Walls.mat using Guid(7592afc10fd2353429672a991222d06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee5e3e43aee9c4a72f982ec98e45af5') in 0.008647 seconds 
+  Import took 0.014099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Materials/Player.mat
+  artifactKey: Guid(209d43389f820704cbe48d1e7dd87c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Player.mat using Guid(209d43389f820704cbe48d1e7dd87c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f43122d70923707d08d828baf0258290') in 0.009074 seconds 
+  Import took 0.014421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Standard Assets/Fonts/OpenSans/OpenSansSemibold.ttf
+  artifactKey: Guid(01cd679a1b9ee48bf9c546f6ce2cb97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Fonts/OpenSans/OpenSansSemibold.ttf using Guid(01cd679a1b9ee48bf9c546f6ce2cb97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a53f886f154f2404a9058e52867b88') in 0.014241 seconds 
+  Import took 0.020058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Models/Single watermelon slice/Materials/watermelon_inside_textured_1.mat
+  artifactKey: Guid(1c4d845ee4016d6468a403a978485f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Single watermelon slice/Materials/watermelon_inside_textured_1.mat using Guid(1c4d845ee4016d6468a403a978485f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84aa3b44496ac2ff0bb0f586b3a5df17') in 0.012636 seconds 
+  Import took 0.018392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Materials/Floor.mat
+  artifactKey: Guid(1b479ba6bce36674f9b9b20345625e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Floor.mat using Guid(1b479ba6bce36674f9b9b20345625e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e1cce39aa7acb4b6d36c8c77445d7e8') in 0.009779 seconds 
+  Import took 0.015687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Models/Single watermelon slice/Materials/bliks.mat
+  artifactKey: Guid(5c288fcbf25cd764cabf3c5b225135f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Single watermelon slice/Materials/bliks.mat using Guid(5c288fcbf25cd764cabf3c5b225135f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e44210eefd12591a454da21e106fe279') in 0.009184 seconds 
+  Import took 0.014268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Materials/Pickup Clear green.mat
+  artifactKey: Guid(ecacd0f8a9688284da69cdf924e57a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pickup Clear green.mat using Guid(ecacd0f8a9688284da69cdf924e57a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9520a61de48ddebaab84f85d5e9b23f') in 0.009054 seconds 
+  Import took 0.015151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fc91a6dfbad218382b66ad8df0f9c08') in 0.096056 seconds 
+  Import took 0.100863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Materials/Skybox_Mat.mat
+  artifactKey: Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skybox_Mat.mat using Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e587b2d9f39b4a8da249a6a8f56a44') in 0.100932 seconds 
+  Import took 0.105811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad3bafeaa27877d9d23f9c67f60c68e9') in 0.010890 seconds 
+  Import took 0.015983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Standard Assets/Fonts/OpenSans/OpenSansLight.ttf
+  artifactKey: Guid(04a842e316b6f44bf8da702de26a8ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Fonts/OpenSans/OpenSansLight.ttf using Guid(04a842e316b6f44bf8da702de26a8ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5da0cf403c8d521f2a89cc978afee01') in 0.013529 seconds 
+  Import took 0.018679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Models/Single watermelon slice/Materials/inside_bottom_ceil.mat
+  artifactKey: Guid(b1617e1af5b04114ba80b650e368c8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Single watermelon slice/Materials/inside_bottom_ceil.mat using Guid(b1617e1af5b04114ba80b650e368c8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b992bc1539206ed404374ec9da0b87ed') in 0.008925 seconds 
+  Import took 0.014796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Materials/PickUp Blue.mat
+  artifactKey: Guid(5a4179a8c5b24a043a27176de59db35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PickUp Blue.mat using Guid(5a4179a8c5b24a043a27176de59db35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ddfdc24694e7e967451c4dba08c631') in 0.009549 seconds 
+  Import took 0.015262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d00d8f87d0e45cd1d734315419034c8') in 0.020702 seconds 
+  Import took 0.027030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Models/Single watermelon slice/Materials/Seeds_outline.mat
+  artifactKey: Guid(54f8117805ef453499055a2a599dd40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Single watermelon slice/Materials/Seeds_outline.mat using Guid(54f8117805ef453499055a2a599dd40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd31d3344325a958db997986728337e33') in 0.007960 seconds 
+  Import took 0.012779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Models/Single watermelon slice/Materials/Stars.mat
+  artifactKey: Guid(18fee1972ac1b304b8ccb7c09dcac4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Single watermelon slice/Materials/Stars.mat using Guid(18fee1972ac1b304b8ccb7c09dcac4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a10ddff9e1cbfc9aa2c84feacf63d29') in 0.007785 seconds 
+  Import took 0.013463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '879fa411c1e620b5cf75c8a22406ff80') in 0.031756 seconds 
+  Import took 0.037357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Models/Single watermelon slice/Materials/bottom_outline.mat
+  artifactKey: Guid(f4f084879d5b2d54aa79acdf8673e40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Single watermelon slice/Materials/bottom_outline.mat using Guid(f4f084879d5b2d54aa79acdf8673e40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1660c5435087ed6df868d725c031c204') in 0.008687 seconds 
+  Import took 0.013186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Models/Single watermelon slice/Materials/inside_bottom.mat
+  artifactKey: Guid(64fa0615393663f498907980009e2085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Single watermelon slice/Materials/inside_bottom.mat using Guid(64fa0615393663f498907980009e2085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '139af3d443b6f01757bcd6538deece8d') in 0.009252 seconds 
+  Import took 0.015257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Models/Single watermelon slice/Materials/red_outline_old.mat
+  artifactKey: Guid(7aa3b3fcd0d90144f8aab9bfa4353e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Single watermelon slice/Materials/red_outline_old.mat using Guid(7aa3b3fcd0d90144f8aab9bfa4353e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cebc91168fac141532fb7786e949bfb') in 0.016116 seconds 
+  Import took 0.021599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Models/Single watermelon slice/Materials/white.mat
+  artifactKey: Guid(dc6c70511dd163b448339879aabc6f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Single watermelon slice/Materials/white.mat using Guid(dc6c70511dd163b448339879aabc6f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de93cba3a9565fbcf6ad1d21344ec79') in 0.011448 seconds 
+  Import took 0.017256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Models/Single watermelon slice/Materials/inside_upper_floor.mat
+  artifactKey: Guid(2ce29f7c9a2d7c2469855832c715e27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Single watermelon slice/Materials/inside_upper_floor.mat using Guid(2ce29f7c9a2d7c2469855832c715e27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '055e1951cfe2de849db6886d67405644') in 0.009309 seconds 
+  Import took 0.014744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Materials/Pickup Clear blue.mat
+  artifactKey: Guid(41f5e77aaea635c4692d78d72ab9ffbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pickup Clear blue.mat using Guid(41f5e77aaea635c4692d78d72ab9ffbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d8718e5caf54b24d741d8f359400f2') in 0.009692 seconds 
+  Import took 0.014943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Materials/Bubble.mat
+  artifactKey: Guid(7e2686747435cde46bc2137659319d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Bubble.mat using Guid(7e2686747435cde46bc2137659319d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb8f3f1af7605634e1cdc5aa5ac27a6d') in 0.019207 seconds 
+  Import took 0.025237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Materials/defaultMat.mat
+  artifactKey: Guid(9eabf515567ffc7439a3941b196d2357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/defaultMat.mat using Guid(9eabf515567ffc7439a3941b196d2357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f983bc77b46b0ad4c0c306f1d92b92c6') in 0.009284 seconds 
+  Import took 0.014045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Materials/PickUp 2.mat
+  artifactKey: Guid(6846c55b0dde66e4695530b501195667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PickUp 2.mat using Guid(6846c55b0dde66e4695530b501195667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fe0afe39fd444ea66fa20cf9afa30f8') in 0.009022 seconds 
+  Import took 0.014385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.491214 seconds.
+  path: Assets/Models/Single watermelon slice/watermelon model.blend
+  artifactKey: Guid(1ea5d3da8f335ef4eb75680b18743939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Single watermelon slice/watermelon model.blend using Guid(1ea5d3da8f335ef4eb75680b18743939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed63d0e7cc2f47437a0e6be546d975b') in 0.264908 seconds 
+  Import took 0.270682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.584581 seconds.
+  path: Assets/Models/Single watermelon slice/Materials/Fruit Shader.shadergraph
+  artifactKey: Guid(6dba84872763fda44b64a775678232d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Single watermelon slice/Materials/Fruit Shader.shadergraph using Guid(6dba84872763fda44b64a775678232d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f605a8810b6e39d4bae6725ceb53f8f4') in 0.003556 seconds 
+  Import took 0.009647 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
