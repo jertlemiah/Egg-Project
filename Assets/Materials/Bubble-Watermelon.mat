@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Bubble
+  m_Name: Bubble-Watermelon
   m_Shader: {fileID: -6465566751694194690, guid: 21916a17a2ed6654bb7cdbce10d7b185, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -78,7 +78,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Vector1_310a35332bf44382b179b7e0e34540ae: 0.6
-    - Vector1_f8297aadf3eb40e0b626026fe7990214: 5.5
+    - Vector1_f8297aadf3eb40e0b626026fe7990214: 4
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -106,7 +106,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 0
     m_Colors:
-    - Color_4be6740a1fff4ad9aacfe0c7fa710526: {r: 1.4865752, g: 0.65212965, b: 1.1910247, a: 0.28235295}
+    - Color_4be6740a1fff4ad9aacfe0c7fa710526: {r: 2, g: 0, b: 0.11764706, a: 1}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 0.15686275}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

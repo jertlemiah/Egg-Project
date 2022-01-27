@@ -25,7 +25,7 @@ public class EggController : MonoBehaviour
     void Start()
     {
         scaleMin = gameObject.transform.localScale.x;
-        eatenColors.Add(GetComponent<Renderer>().material.color);
+        eatenColors.Add(eggColor);
         GrowEgg();
     }
 
@@ -91,7 +91,7 @@ public class EggController : MonoBehaviour
         float num = eatenColors.Count;
         // GetComponent<Renderer>().material.color = new Color(r/num,g/num,b/num);
         eggColor = new Color(r/num,g/num,b/num);
-        GetComponent<Renderer>().material.DOColor(eggColor,growDuration);
+        GetComponentInChildren<Renderer>().material.DOColor(eggColor,growDuration);
         sliderFill.GetComponent<Image>().DOColor(eggColor,growDuration);
         SetCountText();
     }

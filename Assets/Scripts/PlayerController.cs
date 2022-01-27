@@ -16,7 +16,9 @@ public class PlayerController : MonoBehaviour
 {
 	
 	// Create public variables for player speed, and for the Text UI game objects
-	public float speed, growDuration = 2;
+	[SerializeField] public float speed, growDuration = 2;
+    [SerializeField] public float jumpForce = 3f;
+    [SerializeField] public float jumpMovementDampener = 0.5f;
     [SerializeField] public int winAmount = 10;
     [SerializeField] [Range(0, 1)] public float growAmount = 0.5f;
     [SerializeField] private float currentScale, startScale, targetScale;
@@ -33,6 +35,7 @@ public class PlayerController : MonoBehaviour
     InputActions inputActions;
     public Vector3 direction;
     [SerializeField] GameObject arrowGO;
+    [SerializeField] public Collider playerCollider;
 
 	// At the start of the game..
 	
@@ -40,6 +43,7 @@ public class PlayerController : MonoBehaviour
     {
         inputActions = new InputActions();
         inputActions.Player.Quit.performed += ctx => WinGame();
+        inputActions.Player.Jump.performed += ctx => TryJump();
 
     }
     void Start ()
@@ -61,6 +65,22 @@ public class PlayerController : MonoBehaviour
         startScale = currentScale;
         targetScale = currentScale;
 	}
+
+    bool IsGrounded()
+    {
+        return Physics.Raycast(transform.position, -Vector3.up, playerCollider.bounds.extents.y + 0.1f);
+    }
+    void TryJump()
+    {
+        if(IsGrounded())
+        {
+            Debug.Log("jumping");
+            rb.AddForce(Vector3.up*jumpForce, ForceMode.Impulse);
+        }
+        else{
+            Debug.Log("Can't jump now");
+        }
+    }
 
     void OnEnable()
     {
@@ -88,7 +108,10 @@ public class PlayerController : MonoBehaviour
         if(direction.magnitude > 0)
         {
             // arrowGO.transform.rotation = Quaternion.Euler(arrowGO.transform.rotation.x,angle,arrowGO.transform.rotation.z);
-            rb.AddForce (direction * speed);
+            if(IsGrounded())
+                rb.AddForce (direction * speed);
+            else
+                rb.AddForce (direction * speed * jumpMovementDampener);
         }
         
 		

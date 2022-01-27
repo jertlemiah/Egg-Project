@@ -6,11 +6,16 @@ public class FoodPickup : MonoBehaviour
 {
     [SerializeField] public float size = 5;
     [SerializeField] public Color color;
+    [SerializeField] public bool useMaterialColor = true;
     [SerializeField] public Collider groundCollider;
 
     void Awake()
     {
-        color = GetComponent<Renderer>().material.color;
+        if(useMaterialColor)
+        {
+            color = GetComponent<Renderer>().material.color;
+        }
+        
     }
 
     // Start is called before the first frame update
