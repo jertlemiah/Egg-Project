@@ -15,6 +15,7 @@ public class AudioManager : MonoBehaviour
 
     void Awake()
     {
+        
         if (_instance == null)
         {
             _instance = this;
@@ -31,7 +32,18 @@ public class AudioManager : MonoBehaviour
     }
     void Start()
     {
+        Shuffle();
+        
+        // backgroundTracks.
         PlayNextTrack();
+    }
+    public void Shuffle() {
+        for (int i = 0; i < backgroundTracks.Length; i++) {
+            int rnd = Random.Range(0, backgroundTracks.Length);
+            Sound temp = backgroundTracks[rnd];
+            backgroundTracks[rnd] = backgroundTracks[i];
+            backgroundTracks[i] = temp;
+        }
     }
     public void SetVolMaster(float sliderValue)
     {

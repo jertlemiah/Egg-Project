@@ -25,5 +25,12 @@ public class State_PushEgg : MonoBehaviour
         // controller.movement = new Vector2(dir.x, dir.y);
         radius = eggGO.GetComponent<SphereCollider>().radius*eggGO.transform.localScale.y;
         transform.position = eggGO.transform.position - dir*(radius + armsDistance);
+
+        var lookPos = eggGO.transform.position - transform.position;
+        lookPos.y = 0;
+        transform.LookAt(eggGO.transform,Vector3.up);
+        transform.rotation = Quaternion.Euler(0f,transform.rotation.eulerAngles.y,0f);
+        // var rotation = Quaternion.LookRotation(lookPos);
+        // transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * 2); 
     }
 }

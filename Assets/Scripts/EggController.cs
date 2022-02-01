@@ -12,27 +12,35 @@ public class EggController : MonoBehaviour
     [SerializeField] private float currentScale, startScale, targetScale;
     [SerializeField] public float eatModifier = 0.7f;
     [SerializeField] public float growDuration = 2;
+    [SerializeField] public float jumpMovementDampener = 0.5f;
+    [SerializeField] public float jumpForce = 7f;
 
     [SerializeField] Slider eggSlider;
+    private Rigidbody rb;
     public Color eggColor;
     public GameObject sliderFill;
 
     public List<Color> eatenColors = new List<Color>();
     public TextMeshProUGUI countText;
     [SerializeField] PlayerController playerController;
+    public bool isGrounded = true;
+    [SerializeField] private Collider eggCollider;
     
     // Start is called before the first frame update
     void Start()
     {
+        rb = GetComponent<Rigidbody>();
+        if(!eggCollider)
+            eggCollider = GetComponent<Collider>();
         scaleMin = gameObject.transform.localScale.x;
         eatenColors.Add(eggColor);
         GrowEgg();
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        
+        isGrounded = Physics.Raycast(transform.position, -Vector3.up, eggCollider.bounds.extents.y + 0.1f);
     }
     void OnTriggerEnter(Collider collision) 
 	{
@@ -79,7 +87,8 @@ public class EggController : MonoBehaviour
 
         transform.DOScale(new Vector3 (targetScale*1.2f, targetScale, targetScale*1.2f),growDuration);
         // eggSlider.value = (fillLevel/fillMax);
-        eggSlider.DOValue((currentSize/fillMax),growDuration);
+        if(eggSlider)
+            eggSlider.DOValue((currentSize/fillMax),growDuration);
         // eggSlider.
         float r = 0, g = 0, b = 0;
         foreach(Color c in eatenColors)
@@ -92,8 +101,10 @@ public class EggController : MonoBehaviour
         // GetComponent<Renderer>().material.color = new Color(r/num,g/num,b/num);
         eggColor = new Color(r/num,g/num,b/num);
         GetComponentInChildren<Renderer>().material.DOColor(eggColor,growDuration);
-        sliderFill.GetComponent<Image>().DOColor(eggColor,growDuration);
-        SetCountText();
+        if(sliderFill)
+            sliderFill.GetComponent<Image>().DOColor(eggColor,growDuration);
+        if(countText)
+            SetCountText();
     }
 
     void SetCountText()
@@ -106,4 +117,24 @@ public class EggController : MonoBehaviour
             playerController.WinGame();
 		}
 	}
+
+    public void PushEgg(Vector3 direction, float force)
+    {
+        if(isGrounded)
+            rb.AddForce (direction * force);
+        else
+            rb.AddForce (direction * force * jumpMovementDampener);
+    }
+
+    public void TryJump()
+    {
+        if(isGrounded)
+        {
+            Debug.Log("jumping");
+            rb.AddForce(Vector3.up*jumpForce, ForceMode.Impulse);
+        }
+        else{
+            Debug.Log("Can't jump now");
+        }
+    }
 }
